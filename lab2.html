@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 2</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <!--Lab 2
+Write a HTML script to create a table with three rows and three
+columns where rows consist of name, address and note as field
+name. The second row third column should contain a text “File”
+with link set to www.file.edu.np. The height of second row
+should be set to 150px.-->
+
+
+    <h1>Table of students</h1>
+    <table>
+        <caption>Description:</caption>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Note</th>
+        </tr>
+        <tr style="height: 150px;">
+            <td >Nischal</td>
+            <td >Kamalbinayak-10</td>
+            <td ><a href="www.file.edu.np" style="text-decoration: none;">File</a></td>
+        </tr>
+        <tr>
+            <td >Sameer</td>
+            <td >Sangha</td>
+            <td >Don</td>
+        </tr>
+    </table>
 </body>
 </html>
