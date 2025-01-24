@@ -1,0 +1,18 @@
+Lab 1
+1. Write a HTML program to implement different HTML tags.
+
+Lab 2
+Write a HTML script to create a table with three rows and three
+columns where rows consist of name, address and note as field
+name. The second row third column should contain a text “File”
+with link set to www.file.edu.np. The height of second row
+should be set to 150px.
+
+Lab 3:
+Create a HTML page containing ordered and
+unordered lists. Set the value of ordered list type to
+“A” and start from “F”. Similarly use square symbol
+in unordered list.
+
+Lab 4
+Write a HTML code to create form:
